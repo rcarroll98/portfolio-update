@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="assets/css/reset.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 
 
     
@@ -25,10 +25,12 @@
             
                 <nav class="navbar navbar-expand-lg">
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav pull-right">
                             <li class="nav-item">
-                                <a class="nav-link projects-link" href="">Projects</a>
-                                <a class="nav-link contact-link" style="float: right;" href="">Contact</a>
+                                <a class="nav-link projects-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link contact-link"  href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -51,42 +53,39 @@
         </div>
         <div class="row proj">
             <div class="col"></div>
-            <div class="col-md-5">
-                <h3 class="projects">Featured Projects</h3>
+            <div class="col-md-8">
+                <h3 id="projects" class="projects">Featured Projects</h3>
             </div>
-            <div class="col-md-5"></div>
+            
             <div class="col"></div>
         </div>
         <div class="row proj">
             <div class="col"></div>
             <div class="col-md-5">
-                <div class="container recent-projects-blocktrade">
+                
                     
-                    <img class="project-thumbnail recent-projects-blocktrade" src="assets/images/recent-projects-blocktrade.png" onclick="window.open('https://jakedykstra.github.io/Project1/')"; onclick="window.open('https://github.com/jakedykstra/Project1')">
-                </div>
+                <img class="project-thumbnail featured-project-blocktrade" src="assets/images/featured-project-blocktrade.png" onclick="window.open('https://jakedykstra.github.io/Project1/')"; onclick="window.open('https://github.com/jakedykstra/Project1')">
+                
                 
             </div>
             <div class="col-md-5">
-                <div class="container recent-projects-wordguess">
-                <img class="project-thumbnail recent-projects-wordguess" src="assets/images/recent-projects-wordguess.png" onclick="window.open('https://rcarroll98.github.io/word-guess-game/')">
-            </div>
+                
+                <img class="project-thumbnail featured-project-hangman" src="assets/images/featured-project-hangman.png" onclick="window.open('https://rcarroll98.github.io/word-guess-game/')">
+            
             </div>
 
             <div class="col"></div>
         </div>
-        <div class="row proj">
+        <div class="row con">
             <div class="col"></div>
-                <div class="col-md-5">
+                <div class="col-md-6">
                     <h3 class="contact-info">Contact Me</h3>
                 </div>
-            <div class="col-md-5">
-                
-            </div>
             <div class="col"></div>
         </div>
-        <div class="row proj">
+        <div class="row con">
             <div class="col"></div>
-            <div class="col-md-5 contact-links">
+            <div id="contact" class="col-md-6 contact-links">
                 <ul>
                     <li>
                         <a href="https://github.com/rcarroll98">GitHub </a>
@@ -95,7 +94,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-5"></div>
+            
             <div class="col"></div>
         </div>
         <div class="row">

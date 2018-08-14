@@ -1,25 +1,23 @@
 .name {
     font-size: 100px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     padding-bottom: 18px
-    
-
 }
 
 .description{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 22px
 }
 
 .container{
     max-width: 1024px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .projects{
-    padding-top: 80px;
-    font-family: 'Roboto', sans-serif;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 40px;
     font-size: 32px;
     display: block;
     margin-left: auto;
@@ -27,18 +25,19 @@
     
 }
 
-
 .headline{
-    background-color: #deeaee
+    background-color: #deeaee;
+    text-align: center
 }
 
 .desc{
     background-color: #deeaee;
-    padding-bottom: 48px
+    padding-bottom: 48px;
+    text-align: center
 }
 
 .proj{
-    
+    text-align: center
 }
 
 .project-thumbnail{
@@ -49,20 +48,17 @@
 }
 
 .projects-link{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: black;
     
 }
 
 .contact-link{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: black;
 }
 
-a{
-    float: left;
-    
-}
+
 
 nav{
     background-color: #deeaee;
@@ -75,14 +71,21 @@ nav{
 
 .contact-info{
     padding-top: 80px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 32px;
 }
 
 .contact-links{
-    font-family: 'Roboto', sans-serif;
-    float:left;
+    font-family: 'Work Sans', sans-serif;
+    padding-bottom: 24px;
     padding-top: 8px
 }
 
+.con{
+    text-align: center;
+    background-color: #fafafa
+}
 
+.project-thumbnail{
+    box-shadow: 2px;
+}
