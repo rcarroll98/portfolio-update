@@ -17,7 +17,7 @@
 .projects{
     padding-top: 40px;
     font-family: 'Work Sans', sans-serif;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     font-size: 32px;
     display: block;
     margin-left: auto;
@@ -37,7 +37,9 @@
 }
 
 .proj{
-    text-align: center
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: #fafafa;
 }
 
 .project-thumbnail{
@@ -50,7 +52,6 @@
 .projects-link{
     font-family: 'Work Sans', sans-serif;
     color: black;
-    
 }
 
 .contact-link{
@@ -63,10 +64,6 @@
 nav{
     background-color: #deeaee;
     
-}
-
-.proj{
-    background-color: #fafafa;
 }
 
 .contact-info{
@@ -88,4 +85,16 @@ nav{
 
 .project-thumbnail{
     box-shadow: 2px;
+}
+
+.card-text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+}
+
+.card{
+    max-width: 600px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    margin-left: auto;
+    margin-right: auto;
 }
